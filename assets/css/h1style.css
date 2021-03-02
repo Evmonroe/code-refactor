@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* body background-color white */
 body {
     background-color: #d9dcd6;
 }
 
+/* header of body */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +17,18 @@ header {
     color: #ffffff;
 }
 
+ /* h1 heading tag */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+ /* h1 heading tag letteers .seo color d9dcd6 */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* header nav float-right with margin-right 20px and padding */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -36,20 +41,25 @@ header nav ul {
     list-style-type: none;
 }
 
+/* nav inline-block */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+ /* All a tags */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+    /* All p tags */
+
 p {
     font-size: 16px;
 }
 
+/* Put a 25-pixel margin at the bottom of .hero, center/cover background, with image */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +69,28 @@ p {
     background-position: center;
 }
 
+    /* All .float-left tags margin right 25px */
 .float-left {
     float: left;
     margin-right: 25px;
 }
+
+    /* All .float-right tags margin right 25px */
 
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* main tag: margin to left 20px with inline-block */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    padding: 25px;
 }
 
+/* aside tag: margin to right 20px, float right with inline-block */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -87,7 +103,7 @@ aside {
 }
 
 
-
+/* aside classes: margin-bottom 32px and color ffffff  */
 .benefit-brand,
 .benefit-lead,
 .benefit-cost {
@@ -98,7 +114,7 @@ aside {
 
 
 
-
+/*aside h3: margin-bottom 10px and text-align center */
 .benefit-cost h3,
 .benefit-brand h3,
 .benefit-lead h3   {
@@ -106,6 +122,7 @@ aside {
     text-align: center;
 }
 
+/*aside img: display block, margin 10px and text-align max-width 150px */
 
 .benefit-cost img,
 .benefit-brand img,
@@ -115,6 +132,7 @@ aside {
     max-width: 150px;
 }
 
+/*all main id: margin-bottom 20px, padding; 50px, height 300, color white, background 0072bb */
 
 .social-media-marketing,
 .online-reputation-management,
@@ -128,7 +146,7 @@ aside {
     color: #ffffff;
 }
 
-
+/*all main img; max-height: 200px */
 .social-media-marketing img,
 .online-reputation-management img,
 .search-engine-optimization img  {
@@ -136,6 +154,7 @@ aside {
 }
 
 
+/*all main h2; max-height: margin-bottom: 20px font-size: 36px */
 
 .social-media-marketing h2,
 .online-reputation-management h2,
@@ -144,6 +163,7 @@ aside {
     font-size: 36px;
 }
 
+/* Footer tag */
 footer {
     padding: 30px;
     clear: both;
@@ -151,7 +171,7 @@ footer {
     text-align: center;
     justify-content: center;
 }
-
+/* h2 footer tag font-size 20px */
 footer h2 {
     font-size: 20px;
 }
